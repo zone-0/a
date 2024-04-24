@@ -1,0 +1,4 @@
+javac .\*\*.java    ( if windows ) 
+javac ./*/*.java    ( if Linux ) 
+java server.SearchServer
+java client.ClientRequest
