@@ -1,0 +1,4 @@
+javac .\*\*.java
+orbd -ORBInitialPort 1050 -ORBInitialHost localhost
+java server.CalculatorServer -ORBInitialPort 1050 -ORBInitialHost localhost
+java client.CalculatorClient -ORBInitialPort 1050 -ORBInitialHost localhost
